@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;500;600&display=swap');
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    border: 2rem;
     padding: 5rem;
 }
 .container>*{
@@ -21,6 +20,9 @@ body{
     grid-area: 1;
     grid-column: span 2;
     color: #fff;
+    background-image: url(/images/quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 2rem;
     background-color: #7541c8; 
 }
 .section-2{
